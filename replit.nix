@@ -1,14 +1,17 @@
-{ pkgs }: {
+{{ pkgs }: {
     deps = [
-        pkgs.nodejs
-        pkgs.nodePackages.typescript
-        pkgs.ffmpeg
+        pkgs.npm start
+        pkgs.unzip
+        pkgs.nodejs-16_x
+        pkgs.nodePackages.typescript-languange
+        pkgs.yarn
+        pkgs.replitPackages.jest
+        pkgs.arcan.ffmpeg
+        pkgs.libwebp
         pkgs.imagemagick
         pkgs.git
+      pkgs.wget
+      plgs.libuuid
     ];
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
+
